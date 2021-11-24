@@ -1,0 +1,28 @@
+{
+  "name": "core-choose-your-own-adventure",
+  "version": "1.0.0",
+  "description": "### Aims of this sprint",
+  "main": "play.js",
+  "scripts": {
+    "testJest": "jest",
+    "test": "mocha spec",
+    "start": "node play.js",
+    "sample": "node sample/play.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/northcoders/CORE-choose-your-own-adventure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/northcoders/CORE-choose-your-own-adventure/issues"
+  },
+  "homepage": "https://github.com/northcoders/CORE-choose-your-own-adventure#readme",
+  "dependencies": {
+    "inquirer": "^6.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
